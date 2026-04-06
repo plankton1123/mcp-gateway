@@ -1,7 +1,7 @@
 FROM node:20-slim
 
 # 安装 mcp-proxy
-RUN npm install -g @sparfenyuk/mcp-proxy@latest
+RUN npm install -g mcp-proxy@latest
 
 # 暴露端口
 EXPOSE 3000
